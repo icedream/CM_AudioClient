@@ -37,7 +37,7 @@ public class StringUtil {
 					result = s[1];
 			}
 		} else if (ext.equalsIgnoreCase(".pls")) {
-			if (item.toLowerCase().contains("File") && item.contains("="))
+			if (item.toLowerCase().contains("file") && item.contains("="))
 				result = item.substring(6);
 		} else if (ext.equalsIgnoreCase(".ram")) {
 			result = item;

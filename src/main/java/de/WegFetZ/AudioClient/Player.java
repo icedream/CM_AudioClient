@@ -220,7 +220,7 @@ class Player extends Thread {
 			URL[] url = new URL[urlList.size()];
 			url = (URL[]) urlList.toArray(url); //put urls into an array
 			
-			if (url != null) {
+			if (url != null && url.length > 0) {
 				
 				int i = 0;
 				
