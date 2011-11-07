@@ -115,50 +115,70 @@ public class mainWindow extends javax.swing.JFrame {
         jSeparator12 = new javax.swing.JSeparator();
         b_playOwnRadio = new javax.swing.JButton();
         tab_help = new javax.swing.JPanel();
-        jLabel25 = new javax.swing.JLabel();
-        jLabel26 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
-        jLabel28 = new javax.swing.JLabel();
-        jLabel29 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
-        jLabel31 = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        jLabel34 = new javax.swing.JLabel();
-        jSeparator14 = new javax.swing.JSeparator();
-        jLabel35 = new javax.swing.JLabel();
-        jLabel36 = new javax.swing.JLabel();
-        jLabel37 = new javax.swing.JLabel();
-        jLabel38 = new javax.swing.JLabel();
-        jLabel39 = new javax.swing.JLabel();
-        jLabel40 = new javax.swing.JLabel();
-        jLabel41 = new javax.swing.JLabel();
-        jSeparator16 = new javax.swing.JSeparator();
-        jLabel42 = new javax.swing.JLabel();
-        jLabel43 = new javax.swing.JLabel();
-        jLabel44 = new javax.swing.JLabel();
-        jLabel45 = new javax.swing.JLabel();
-        jLabel46 = new javax.swing.JLabel();
-        jLabel47 = new javax.swing.JLabel();
-        jLabel48 = new javax.swing.JLabel();
-        jLabel49 = new javax.swing.JLabel();
-        jLabel50 = new javax.swing.JLabel();
-        jLabel51 = new javax.swing.JLabel();
-        jLabel52 = new javax.swing.JLabel();
-        jLabel53 = new javax.swing.JLabel();
-        jLabel54 = new javax.swing.JLabel();
-        jSeparator17 = new javax.swing.JSeparator();
-        jLabel55 = new javax.swing.JLabel();
-        jLabel56 = new javax.swing.JLabel();
-        jLabel57 = new javax.swing.JLabel();
-        jLabel58 = new javax.swing.JLabel();
-        jLabel59 = new javax.swing.JLabel();
-        jLabel60 = new javax.swing.JLabel();
-        jSeparator15 = new javax.swing.JSeparator();
-        jLabel61 = new javax.swing.JLabel();
-        jLabel62 = new javax.swing.JLabel();
-        jLabel63 = new javax.swing.JLabel();
-        jLabel64 = new javax.swing.JLabel();
+        jLabel120 = new javax.swing.JLabel();
+        jLabel127 = new javax.swing.JLabel();
+        jLabel129 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel73 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        jLabel69 = new javax.swing.JLabel();
+        jLabel70 = new javax.swing.JLabel();
+        jLabel71 = new javax.swing.JLabel();
+        jLabel101 = new javax.swing.JLabel();
+        jLabel102 = new javax.swing.JLabel();
+        jLabel103 = new javax.swing.JLabel();
+        jLabel104 = new javax.swing.JLabel();
+        jLabel75 = new javax.swing.JLabel();
+        jLabel76 = new javax.swing.JLabel();
+        jLabel77 = new javax.swing.JLabel();
+        jLabel78 = new javax.swing.JLabel();
+        jLabel79 = new javax.swing.JLabel();
+        jLabel81 = new javax.swing.JLabel();
+        jLabel80 = new javax.swing.JLabel();
+        jLabel95 = new javax.swing.JLabel();
+        jLabel96 = new javax.swing.JLabel();
+        jLabel97 = new javax.swing.JLabel();
+        jLabel98 = new javax.swing.JLabel();
+        jLabel99 = new javax.swing.JLabel();
+        jLabel100 = new javax.swing.JLabel();
+        jSeparator25 = new javax.swing.JSeparator();
+        jSeparator22 = new javax.swing.JSeparator();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        jLabel85 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        jSeparator24 = new javax.swing.JSeparator();
+        jLabel88 = new javax.swing.JLabel();
+        jLabel94 = new javax.swing.JLabel();
+        jLabel93 = new javax.swing.JLabel();
+        jLabel92 = new javax.swing.JLabel();
+        jLabel91 = new javax.swing.JLabel();
+        jLabel90 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        jSeparator26 = new javax.swing.JSeparator();
+        jLabel105 = new javax.swing.JLabel();
+        jLabel106 = new javax.swing.JLabel();
+        jLabel107 = new javax.swing.JLabel();
+        jLabel108 = new javax.swing.JLabel();
+        jLabel109 = new javax.swing.JLabel();
+        jLabel110 = new javax.swing.JLabel();
+        jLabel111 = new javax.swing.JLabel();
+        jLabel112 = new javax.swing.JLabel();
+        jLabel113 = new javax.swing.JLabel();
+        jLabel114 = new javax.swing.JLabel();
+        jSeparator27 = new javax.swing.JSeparator();
+        jLabel115 = new javax.swing.JLabel();
+        jLabel116 = new javax.swing.JLabel();
+        jLabel117 = new javax.swing.JLabel();
+        jLabel118 = new javax.swing.JLabel();
+        jLabel119 = new javax.swing.JLabel();
+        jSeparator28 = new javax.swing.JSeparator();
+        jSeparator29 = new javax.swing.JSeparator();
         tab_info = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
@@ -189,7 +209,7 @@ public class mainWindow extends javax.swing.JFrame {
             }
         });
 
-        tab_general.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        tab_general.setFont(new java.awt.Font("Arial", 0, 12));
         tab_general.setPreferredSize(new java.awt.Dimension(730, 409));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 12));
@@ -272,7 +292,7 @@ public class mainWindow extends javax.swing.JFrame {
         jLabel22.setText("Download:");
         jLabel22.setToolTipText("Current download progress");
 
-        l_uploadFile.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        l_uploadFile.setFont(new java.awt.Font("Arial", 0, 11));
         l_uploadFile.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         l_uploadFile.setText("-");
         l_uploadFile.setToolTipText("Current file.");
@@ -711,7 +731,7 @@ public class mainWindow extends javax.swing.JFrame {
             }
         });
 
-        jLabel9.setFont(new java.awt.Font("Arial", 1, 18));
+        jLabel9.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
         jLabel9.setText("SHOUTcast™ Stations");
 
         jSeparator12.setOrientation(javax.swing.SwingConstants.VERTICAL);
@@ -808,168 +828,464 @@ public class mainWindow extends javax.swing.JFrame {
 
         tab_help.setFont(new java.awt.Font("Arial", 0, 12));
 
-        jLabel25.setFont(new java.awt.Font("Arial", 1, 14));
-        jLabel25.setText("Ingame commands:");
+        jLabel120.setFont(new java.awt.Font("Arial", 1, 14));
+        jLabel120.setText("Ingame commands:");
 
-        jLabel26.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel26.setText("/cm init");
-        jLabel26.setToolTipText("initialize the AudioClient, in case you connected to the server after you logged into Minecraft");
+        jLabel127.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel127.setText("'<  >' means that the parameter is required, whereas '[  ]' means that the parameter is optional.");
+        jLabel127.setToolTipText("");
 
-        jLabel27.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel27.setText("/cm help [page]");
-        jLabel27.setToolTipText("Show a list of all commands.");
+        jLabel129.setFont(new java.awt.Font("Arial", 0, 12));
+        jLabel129.setText("Hold the mouse over a command until the Tooltip pops up to get more information on the command.");
+        jLabel129.setToolTipText("Yay, exactly like this ;)");
 
-        jLabel28.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel28.setText("/cm toggle");
-        jLabel28.setToolTipText("Toggle the music.");
+        jPanel1.setAutoscrolls(true);
 
-        jLabel29.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel29.setText("/cm volume <value>");
-        jLabel29.setToolTipText("Change the volume of the music.");
+        jLabel73.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel73.setText("General commands");
+        jLabel73.setToolTipText("");
 
-        jLabel30.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel30.setText("/cm status");
-        jLabel30.setToolTipText("Check if you are in range of any box or area.");
+        jLabel67.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel67.setText("/cm help [page]");
+        jLabel67.setToolTipText("Show a list of all commands.");
 
-        jLabel31.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel31.setText("/cm users");
-        jLabel31.setToolTipText("Get a list of players that are currently using the audioclient.");
+        jLabel66.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel66.setText("/cm init");
+        jLabel66.setToolTipText("initialize the AudioClient, in case you connected to the server after you logged into Minecraft");
 
-        jLabel32.setFont(new java.awt.Font("Arial", 0, 12));
-        jLabel32.setText("'<  >' means that the parameter is required, whereas '[  ]' means that the parameter is optional.");
-        jLabel32.setToolTipText("");
+        jLabel68.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel68.setText("/cm toggle");
+        jLabel68.setToolTipText("Toggle the music.");
 
-        jLabel33.setFont(new java.awt.Font("Arial", 1, 12));
-        jLabel33.setText("General commands");
-        jLabel33.setToolTipText("");
+        jLabel69.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel69.setText("/cm volume <value>");
+        jLabel69.setToolTipText("Change the volume of the music.");
 
-        jLabel34.setFont(new java.awt.Font("Arial", 0, 12));
-        jLabel34.setText("Hold the mouse over a command until the Tooltip pops up to get more information on the command.");
-        jLabel34.setToolTipText("Yay, exactly like this ;)");
+        jLabel70.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel70.setText("/cm status");
+        jLabel70.setToolTipText("Check if you are in range of any box or area.");
 
-        jSeparator14.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        jLabel71.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel71.setText("/cm users");
+        jLabel71.setToolTipText("Get a list of players that are currently using the audioclient.");
 
-        jLabel35.setFont(new java.awt.Font("Arial", 1, 12));
-        jLabel35.setText("Playing commands");
-        jLabel35.setToolTipText("");
+        jLabel101.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel101.setText("/cm songlist [player] <page>");
+        jLabel101.setToolTipText("List songs [of a player].");
 
-        jLabel36.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel36.setText("/cm play [player] <songnumbers>");
-        jLabel36.setToolTipText("Play a song only for you. If you use the player parameter you can play songs from other players. Songnumbers must be seperated by comma. You can use 'all' to play every song. ");
+        jLabel102.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel102.setText("/cm radiolist [player] <page>");
+        jLabel102.setToolTipText("List webradio stations [of a player]. ");
 
-        jLabel37.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel37.setText("/cm gplay [player] <songnumbers>");
-        jLabel37.setToolTipText("Play a song globally for everybody. If you use the player parameter you can play songs from other players. Songnumbers must be seperated by comma. You can use 'all' to play every song. ");
+        jLabel103.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jLabel103.setText("/cm deletesong [player] <number>");
+        jLabel103.setToolTipText("Delete a song [of a player].");
 
-        jLabel38.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel38.setText("/cm playradio [player] <radionumber>");
-        jLabel38.setToolTipText("Play a webradio station only for you. If you use the player parameter you can play radio stations from other players.");
+        jLabel104.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel104.setText("/cm deleteradio [player] <number>");
+        jLabel104.setToolTipText("Delete a webradio station [of a player].");
 
-        jLabel39.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel39.setText("/cm gplayradio [player] <radionumber>");
-        jLabel39.setToolTipText("Play a webradio station globally everyboy. If you use the player parameter you can play radio stations from other players.");
+        jLabel75.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel75.setText("Playing commands");
+        jLabel75.setToolTipText("");
 
-        jLabel40.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel40.setText("/cm stop");
-        jLabel40.setToolTipText("Stop the song or radiostation you are currently playing with '/cm play',");
+        jLabel76.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel76.setText("/cm play [player] <songnumbers>");
+        jLabel76.setToolTipText("Play a song only for you. If you use the player parameter you can play songs from other players. Songnumbers must be seperated by comma. You can use 'all' to play every song. ");
 
-        jLabel41.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel41.setText("/cm gstop");
-        jLabel41.setToolTipText("Stop the song or radiostation you are currently playing with '/cm gplay',");
+        jLabel77.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel77.setText("/cm gplay [player] <songnumbers>");
+        jLabel77.setToolTipText("Play a song globally for everybody. If you use the player parameter you can play songs from other players. Songnumbers must be seperated by comma. You can use 'all' to play every song. ");
 
-        jSeparator16.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        jLabel78.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel78.setText("/cm playradio [player] <radionumber>");
+        jLabel78.setToolTipText("Play a webradio station only for you. If you use the player parameter you can play radio stations from other players.");
 
-        jLabel42.setFont(new java.awt.Font("Arial", 1, 12));
-        jLabel42.setText("Box commands");
-        jLabel42.setToolTipText("");
+        jLabel79.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel79.setText("/cm gplayradio [player] <radionumber>");
+        jLabel79.setToolTipText("Play a webradio station globally everyboy. If you use the player parameter you can play radio stations from other players.");
 
-        jLabel43.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel43.setText("/cm setbox <number> [range] [priority]");
-        jLabel43.setToolTipText("Set a box at your current location. Range is the distance from where the box can be heard.  Priority is used to manage the volume of overlapping boxes/ areas.");
+        jLabel81.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel81.setText("/cm gstop");
+        jLabel81.setToolTipText("Stop the song or radiostation you are currently playing with '/cm gplay',");
 
-        jLabel44.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel44.setText("/cm deletebox [player] <number>");
-        jLabel44.setToolTipText("Delete a box [from another player].");
+        jLabel80.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel80.setText("/cm stop");
+        jLabel80.setToolTipText("Stop the song or radiostation you are currently playing with '/cm play',");
 
-        jLabel45.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel45.setText("/cm bchoose <number> <songnumbers>");
-        jLabel45.setToolTipText("Choose the songs a box shall play. Songnumbers must be seperated by comma. You can use 'all' to choose all your songs.");
+        jLabel95.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel95.setText("Ignore commands");
+        jLabel95.setToolTipText("");
 
-        jLabel46.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel46.setText("/cm bchooseradio <number> <radionumber>");
-        jLabel46.setToolTipText("Choose the webradio station a box shall play.");
+        jLabel96.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel96.setText("/cm ignorebox <player> <number>");
+        jLabel96.setToolTipText("Ignore a box of a player.");
 
-        jLabel47.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel47.setText("/cm boxlist [player] <page>");
-        jLabel47.setToolTipText("List all boxes [of a player].");
+        jLabel97.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel97.setText("/cm ignorearea <player> <number>");
+        jLabel97.setToolTipText("Ignore an area of a player.");
 
-        jLabel48.setFont(new java.awt.Font("Arial", 1, 12));
-        jLabel48.setText("Area commands");
-        jLabel48.setToolTipText("");
+        jLabel98.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jLabel98.setText("/cm unignorebox <player> <number>");
+        jLabel98.setToolTipText("Stop ignoring a box of a player.");
 
-        jLabel49.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel49.setText("/cm arealist [player] <page>");
-        jLabel49.setToolTipText("List all areas [of a player].");
+        jLabel99.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jLabel99.setText("/cm unignorearea <player> <number>");
+        jLabel99.setToolTipText("Stop ignoring an area of a player.");
 
-        jLabel50.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel50.setText("/cm achooseradio <number> <radionumber>");
-        jLabel50.setToolTipText("Choose the webradio station an area shall play.");
+        jLabel100.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel100.setText("/cm ignorelist <page>");
+        jLabel100.setToolTipText("Get a list of ignored boxes and areas.");
 
-        jLabel51.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel51.setText("/cm achoose <number> <songnumbers>");
-        jLabel51.setToolTipText("Choose the songs an area shall play. Songnumbers must be seperated by comma. You can use 'all' to choose all your songs.");
+        jSeparator22.setOrientation(javax.swing.SwingConstants.VERTICAL);
 
-        jLabel52.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel52.setText("/cm deletearea [player] <number>");
-        jLabel52.setToolTipText("Delete an area [from another player].");
+        jLabel82.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel82.setText("Box commands");
+        jLabel82.setToolTipText("");
 
-        jLabel53.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel53.setText("/cm setarea <number> [f-range] [priority]");
-        jLabel53.setToolTipText("Set a previously defined area. F-Range is the distance to the wall of an area at which the music will begin to fade in/out. Priority is used to manage the volume of overlapping boxes/ areas.");
+        jLabel83.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel83.setText("/cm setbox <number> [range] [priority]");
+        jLabel83.setToolTipText("Set a box at your current location. Range is the distance from where the box can be heard.  Priority is used to manage the volume of overlapping boxes/ areas.");
 
-        jLabel54.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel54.setText("/cm definearea <1|2>");
-        jLabel54.setToolTipText("Define the corners of a cuboid area. Use either '1' or '2' as parameter.");
+        jLabel84.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel84.setText("/cm deletebox [player] <number>");
+        jLabel84.setToolTipText("Delete a box [from another player].");
 
-        jLabel55.setFont(new java.awt.Font("Arial", 1, 12));
-        jLabel55.setText("Ignore commands");
-        jLabel55.setToolTipText("");
+        jLabel85.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel85.setText("/cm bchoose <number> <songnumbers>");
+        jLabel85.setToolTipText("Choose the songs a box shall play. Songnumbers must be seperated by comma. You can use 'all' to choose all your songs.");
 
-        jLabel56.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel56.setText("/cm ignorebox <player> <number>");
-        jLabel56.setToolTipText("Ignore a box of a player.");
+        jLabel86.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel86.setText("/cm bchooseradio <number> <radionumber>");
+        jLabel86.setToolTipText("Choose the webradio station a box shall play.");
 
-        jLabel57.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel57.setText("/cm ignorearea <player> <number>");
-        jLabel57.setToolTipText("Ignore an area of a player.");
+        jLabel87.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel87.setText("/cm boxlist [player] <page>");
+        jLabel87.setToolTipText("List all boxes [of a player].");
 
-        jLabel58.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel58.setText("/cm unignorebox <player> <number>");
-        jLabel58.setToolTipText("Stop ignoring a box of a player.");
+        jLabel88.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel88.setText("Area commands");
+        jLabel88.setToolTipText("");
 
-        jLabel59.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel59.setText("/cm unignorearea <player> <number>");
-        jLabel59.setToolTipText("Stop ignoring an area of a player.");
+        jLabel94.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel94.setText("/cm definearea <1|2>");
+        jLabel94.setToolTipText("Define the corners of a cuboid area. Use either '1' or '2' as parameter.");
 
-        jLabel60.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel60.setText("/cm ignorelist <page>");
-        jLabel60.setToolTipText("Get a list of ignored boxes and areas.");
+        jLabel93.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel93.setText("/cm setarea <number> [f-range] [priority]");
+        jLabel93.setToolTipText("Set a previously defined area. F-Range is the distance to the wall of an area at which the music will begin to fade in/out. Priority is used to manage the volume of overlapping boxes/ areas.");
 
-        jLabel61.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel61.setText("/cm songlist [player] <page>");
-        jLabel61.setToolTipText("List songs [of a player].");
+        jLabel92.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel92.setText("/cm deletearea [player] <number>");
+        jLabel92.setToolTipText("Delete an area [from another player].");
 
-        jLabel62.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel62.setText("/cm radiolist [player] <page>");
-        jLabel62.setToolTipText("List webradio stations [of a player]. ");
+        jLabel91.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel91.setText("/cm achoose <number> <songnumbers>");
+        jLabel91.setToolTipText("Choose the songs an area shall play. Songnumbers must be seperated by comma. You can use 'all' to choose all your songs.");
 
-        jLabel63.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel63.setText("/cm deletesong [player] <number>");
-        jLabel63.setToolTipText("Delete a song [of a player].");
+        jLabel90.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel90.setText("/cm achooseradio <number> <radionumber>");
+        jLabel90.setToolTipText("Choose the webradio station an area shall play.");
 
-        jLabel64.setFont(new java.awt.Font("Arial", 0, 11));
-        jLabel64.setText("/cm deleteradio [player] <number>");
-        jLabel64.setToolTipText("Delete a webradio station [of a player].");
+        jLabel89.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel89.setText("/cm arealist [player] <page>");
+        jLabel89.setToolTipText("List all areas [of a player].");
+
+        jLabel105.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel105.setText("/cm reload");
+        jLabel105.setToolTipText("Reload the plugin configuration and restart the audio-server.");
+
+        jLabel106.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jLabel106.setText("/cm ignorebiome [biome]");
+        jLabel106.setToolTipText("Ignore a biome.");
+
+        jLabel107.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jLabel107.setText("/cm unignoreworld [world]");
+        jLabel107.setToolTipText("Stop ignoring a world.");
+
+        jLabel108.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel108.setText("/cm unignorebiome [biome]");
+        jLabel108.setToolTipText("Stop ignoring a biome.");
+
+        jLabel109.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
+        jLabel109.setText("/cm ignoreworld [world]");
+        jLabel109.setToolTipText("Ignore a world.");
+
+        jLabel110.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel110.setText("/cm setworld [world] [<volume> <priority>]");
+        jLabel110.setToolTipText("Set up a world to play music with the given volume and priority.");
+
+        jLabel111.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel111.setText("/cm wchoose [world] <songnumbers|all|none>");
+        jLabel111.setToolTipText("Choose the songs that shall be played in the world. Use 'none' to play no music anymore.");
+
+        jLabel112.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel112.setText("/cm wchooseradio [world] <radionumber>");
+        jLabel112.setToolTipText("Choose the webradio station that shall be played in a world.");
+
+        jLabel113.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel113.setText("/cm worldlist <page>");
+        jLabel113.setToolTipText("List all worlds that play music.");
+
+        jLabel114.setFont(new java.awt.Font("Arial", 1, 12));
+        jLabel114.setText("World / biome commands");
+        jLabel114.setToolTipText("");
+
+        jLabel115.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel115.setText("/cm setbiome [biome] [<volume> <priority>]");
+        jLabel115.setToolTipText("Set up a biome to play music with the given volume and priority.");
+
+        jLabel116.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel116.setText("/cm biochoose [biome] <songnumbers|all|none>");
+        jLabel116.setToolTipText("Choose the songs that shall be played in the biome. Use 'none' to play no music anymore.");
+
+        jLabel117.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel117.setText("/cm biochooseradio [biome] <radionumber>");
+        jLabel117.setToolTipText("Choose the webradio station that shall be played in a biome.");
+
+        jLabel118.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel118.setText("/cm biomelist <page>");
+        jLabel118.setToolTipText("List all biomes that play music.");
+
+        jLabel119.setFont(new java.awt.Font("Arial", 0, 11));
+        jLabel119.setText("/cm biomes");
+        jLabel119.setToolTipText("Get a list of all available biomes.");
+
+        jSeparator28.setOrientation(javax.swing.SwingConstants.VERTICAL);
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jSeparator25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addContainerGap()
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(jLabel95, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                                    .addGap(10, 10, 10)
+                                    .addComponent(jLabel96))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                                    .addGap(10, 10, 10)
+                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel107)
+                                        .addComponent(jLabel108)
+                                        .addComponent(jLabel100)))
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                                    .addGap(10, 10, 10)
+                                    .addComponent(jLabel97))
+                                .addComponent(jSeparator29, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 188, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGap(2, 2, 2))
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addContainerGap()
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel1Layout.createSequentialGroup()
+                                    .addGap(10, 10, 10)
+                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(jLabel66)
+                                        .addComponent(jLabel67)
+                                        .addComponent(jLabel68)
+                                        .addComponent(jLabel69)
+                                        .addComponent(jLabel70)
+                                        .addComponent(jLabel71)
+                                        .addComponent(jLabel101)
+                                        .addComponent(jLabel102)
+                                        .addComponent(jLabel103)
+                                        .addComponent(jLabel104)
+                                        .addComponent(jLabel105)))
+                                .addComponent(jLabel73))))
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(jLabel98, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel99, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel106, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jLabel109, javax.swing.GroupLayout.Alignment.LEADING)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jSeparator28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel77)
+                            .addComponent(jLabel78)
+                            .addComponent(jLabel79)
+                            .addComponent(jLabel80)
+                            .addComponent(jLabel81)
+                            .addComponent(jLabel76)))
+                    .addComponent(jLabel75)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 4, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel111)
+                            .addComponent(jLabel112)
+                            .addComponent(jLabel113)
+                            .addComponent(jLabel110)
+                            .addComponent(jLabel116)
+                            .addComponent(jLabel117)
+                            .addComponent(jLabel118)
+                            .addComponent(jLabel115)
+                            .addComponent(jLabel119)))
+                    .addComponent(jLabel114)
+                    .addComponent(jSeparator27, javax.swing.GroupLayout.PREFERRED_SIZE, 231, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jSeparator22, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jSeparator26, javax.swing.GroupLayout.PREFERRED_SIZE, 228, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(10, 10, 10)
+                        .addComponent(jSeparator24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel82)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel84)
+                            .addComponent(jLabel83)
+                            .addComponent(jLabel85)
+                            .addComponent(jLabel86)
+                            .addComponent(jLabel87)))
+                    .addComponent(jLabel88)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel92)
+                            .addComponent(jLabel93)
+                            .addComponent(jLabel91)
+                            .addComponent(jLabel90)
+                            .addComponent(jLabel89)
+                            .addComponent(jLabel94)))))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel82)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel83)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel84)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel85)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel86)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel87)
+                                .addGap(13, 13, 13)
+                                .addComponent(jSeparator26, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel88)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel94)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel93)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel92)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel91)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel90)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel89))
+                            .addComponent(jSeparator22, javax.swing.GroupLayout.DEFAULT_SIZE, 467, Short.MAX_VALUE)
+                            .addComponent(jSeparator28, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 467, Short.MAX_VALUE)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(133, 133, 133)
+                                .addComponent(jSeparator24, javax.swing.GroupLayout.PREFERRED_SIZE, 9, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel73)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel67)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel66)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel68)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel69)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel70)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel71)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel101)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel102)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel103)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel104)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel105)
+                                .addGap(11, 11, 11)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jSeparator25, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jSeparator29, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel95)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jLabel96)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel97)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel109)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel106)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel98)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel99)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel107)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel108)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel100)))
+                        .addContainerGap())
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel75)
+                        .addGap(11, 11, 11)
+                        .addComponent(jLabel76)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel77)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel78)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel79)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel80)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel81)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jSeparator27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(14, 14, 14)
+                        .addComponent(jLabel114)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel110)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel111)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel112)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel113)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel115)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel116)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel117)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel118)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel119))))
+        );
+
+        jScrollPane1.setViewportView(jPanel1);
 
         javax.swing.GroupLayout tab_helpLayout = new javax.swing.GroupLayout(tab_help);
         tab_help.setLayout(tab_helpLayout);
@@ -978,167 +1294,23 @@ public class mainWindow extends javax.swing.JFrame {
             .addGroup(tab_helpLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(tab_helpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(tab_helpLayout.createSequentialGroup()
-                        .addGroup(tab_helpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel33)
-                            .addGroup(tab_helpLayout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addGroup(tab_helpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel26)
-                                    .addComponent(jLabel27)
-                                    .addComponent(jLabel28)
-                                    .addComponent(jLabel29)
-                                    .addComponent(jLabel30)
-                                    .addComponent(jLabel31)
-                                    .addComponent(jLabel61)
-                                    .addComponent(jLabel62)
-                                    .addComponent(jLabel63)
-                                    .addComponent(jLabel64))))
-                        .addGap(18, 18, 18)
-                        .addComponent(jSeparator14, javax.swing.GroupLayout.PREFERRED_SIZE, 5, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(tab_helpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel35)
-                            .addGroup(tab_helpLayout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addGroup(tab_helpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel37)
-                                    .addComponent(jLabel38)
-                                    .addComponent(jLabel39)
-                                    .addComponent(jLabel40)
-                                    .addComponent(jLabel41)
-                                    .addComponent(jLabel36)))
-                            .addComponent(jSeparator15, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel55)
-                            .addGroup(tab_helpLayout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addGroup(tab_helpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel57)
-                                    .addComponent(jLabel56)
-                                    .addComponent(jLabel58)
-                                    .addComponent(jLabel59)
-                                    .addComponent(jLabel60))))
-                        .addGap(18, 18, 18)
-                        .addComponent(jSeparator16, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(tab_helpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(jLabel48, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, tab_helpLayout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addComponent(jLabel54)
-                                .addGap(131, 131, 131))
-                            .addComponent(jLabel42, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, tab_helpLayout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addGroup(tab_helpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel44)
-                                    .addComponent(jLabel43)
-                                    .addComponent(jLabel45)
-                                    .addComponent(jLabel46)
-                                    .addComponent(jLabel47)))
-                            .addGroup(tab_helpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(jLabel52)
-                                .addComponent(jLabel53)
-                                .addComponent(jLabel51)
-                                .addComponent(jLabel50)
-                                .addComponent(jLabel49))
-                            .addComponent(jSeparator17, javax.swing.GroupLayout.Alignment.LEADING)))
-                    .addComponent(jLabel25)
-                    .addComponent(jLabel34)
-                    .addComponent(jLabel32))
-                .addContainerGap(22, Short.MAX_VALUE))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 714, Short.MAX_VALUE)
+                    .addComponent(jLabel120)
+                    .addComponent(jLabel129)
+                    .addComponent(jLabel127))
+                .addContainerGap())
         );
         tab_helpLayout.setVerticalGroup(
             tab_helpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tab_helpLayout.createSequentialGroup()
+            .addGroup(tab_helpLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel25)
+                .addComponent(jLabel120)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel34)
+                .addComponent(jLabel129)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel32)
-                .addGap(18, 18, 18)
-                .addGroup(tab_helpLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jSeparator14, javax.swing.GroupLayout.DEFAULT_SIZE, 306, Short.MAX_VALUE)
-                    .addGroup(tab_helpLayout.createSequentialGroup()
-                        .addComponent(jLabel33)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel27)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel26)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel28)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel29)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel30)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel31)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel61)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel62)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel63)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel64))
-                    .addGroup(tab_helpLayout.createSequentialGroup()
-                        .addComponent(jLabel35)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel36)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel37)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel38)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel39)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel40)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel41)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jSeparator15, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel55)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel56)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel57)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel58)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel59)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel60))
-                    .addComponent(jSeparator16, javax.swing.GroupLayout.DEFAULT_SIZE, 306, Short.MAX_VALUE)
-                    .addGroup(tab_helpLayout.createSequentialGroup()
-                        .addComponent(jLabel42)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel43)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel44)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel45)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel46)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel47)
-                        .addGap(18, 18, 18)
-                        .addComponent(jSeparator17, javax.swing.GroupLayout.PREFERRED_SIZE, 9, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(1, 1, 1)
-                        .addComponent(jLabel48)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel54)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel53)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel52)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel51)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel50)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel49)))
+                .addComponent(jLabel127)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 313, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -1161,7 +1333,7 @@ public class mainWindow extends javax.swing.JFrame {
         jTextField1.setEditable(false);
         jTextField1.setFont(new java.awt.Font("Arial", 1, 18));
         jTextField1.setForeground(new java.awt.Color(0, 0, 255));
-        jTextField1.setText("http://forums.bukkit.org/threads/9022");
+        jTextField1.setText("dev.bukkit.org/server-mods/custommusic");
 
         jLabel17.setFont(new java.awt.Font("Arial", 1, 18));
         jLabel17.setText("Visit");
@@ -1433,7 +1605,30 @@ private void b_downloadStreamActionPerformed(java.awt.event.ActionEvent evt) {//
     public static javax.swing.JComboBox combo_connection;
     public static javax.swing.JLabel jLabel1;
     public static javax.swing.JLabel jLabel10;
+    public static javax.swing.JLabel jLabel100;
+    public static javax.swing.JLabel jLabel101;
+    public static javax.swing.JLabel jLabel102;
+    public static javax.swing.JLabel jLabel103;
+    public static javax.swing.JLabel jLabel104;
+    public static javax.swing.JLabel jLabel105;
+    public static javax.swing.JLabel jLabel106;
+    public static javax.swing.JLabel jLabel107;
+    public static javax.swing.JLabel jLabel108;
+    public static javax.swing.JLabel jLabel109;
+    public static javax.swing.JLabel jLabel110;
+    public static javax.swing.JLabel jLabel111;
+    public static javax.swing.JLabel jLabel112;
+    public static javax.swing.JLabel jLabel113;
+    public static javax.swing.JLabel jLabel114;
+    public static javax.swing.JLabel jLabel115;
+    public static javax.swing.JLabel jLabel116;
+    public static javax.swing.JLabel jLabel117;
+    public static javax.swing.JLabel jLabel118;
+    public static javax.swing.JLabel jLabel119;
     public static javax.swing.JLabel jLabel12;
+    public static javax.swing.JLabel jLabel120;
+    public static javax.swing.JLabel jLabel127;
+    public static javax.swing.JLabel jLabel129;
     public static javax.swing.JLabel jLabel13;
     public static javax.swing.JLabel jLabel14;
     public static javax.swing.JLabel jLabel15;
@@ -1447,66 +1642,63 @@ private void b_downloadStreamActionPerformed(java.awt.event.ActionEvent evt) {//
     public static javax.swing.JLabel jLabel22;
     public static javax.swing.JLabel jLabel23;
     public static javax.swing.JLabel jLabel24;
-    public static javax.swing.JLabel jLabel25;
-    public static javax.swing.JLabel jLabel26;
-    public static javax.swing.JLabel jLabel27;
-    public static javax.swing.JLabel jLabel28;
-    public static javax.swing.JLabel jLabel29;
     public static javax.swing.JLabel jLabel3;
-    public static javax.swing.JLabel jLabel30;
-    public static javax.swing.JLabel jLabel31;
-    public static javax.swing.JLabel jLabel32;
-    public static javax.swing.JLabel jLabel33;
-    public static javax.swing.JLabel jLabel34;
-    public static javax.swing.JLabel jLabel35;
-    public static javax.swing.JLabel jLabel36;
-    public static javax.swing.JLabel jLabel37;
-    public static javax.swing.JLabel jLabel38;
-    public static javax.swing.JLabel jLabel39;
     public static javax.swing.JLabel jLabel4;
-    public static javax.swing.JLabel jLabel40;
-    public static javax.swing.JLabel jLabel41;
-    public static javax.swing.JLabel jLabel42;
-    public static javax.swing.JLabel jLabel43;
-    public static javax.swing.JLabel jLabel44;
-    public static javax.swing.JLabel jLabel45;
-    public static javax.swing.JLabel jLabel46;
-    public static javax.swing.JLabel jLabel47;
-    public static javax.swing.JLabel jLabel48;
-    public static javax.swing.JLabel jLabel49;
     public static javax.swing.JLabel jLabel5;
-    public static javax.swing.JLabel jLabel50;
-    public static javax.swing.JLabel jLabel51;
-    public static javax.swing.JLabel jLabel52;
-    public static javax.swing.JLabel jLabel53;
-    public static javax.swing.JLabel jLabel54;
-    public static javax.swing.JLabel jLabel55;
-    public static javax.swing.JLabel jLabel56;
-    public static javax.swing.JLabel jLabel57;
-    public static javax.swing.JLabel jLabel58;
-    public static javax.swing.JLabel jLabel59;
     public static javax.swing.JLabel jLabel6;
-    public static javax.swing.JLabel jLabel60;
-    public static javax.swing.JLabel jLabel61;
-    public static javax.swing.JLabel jLabel62;
-    public static javax.swing.JLabel jLabel63;
-    public static javax.swing.JLabel jLabel64;
+    public static javax.swing.JLabel jLabel66;
+    public static javax.swing.JLabel jLabel67;
+    public static javax.swing.JLabel jLabel68;
+    public static javax.swing.JLabel jLabel69;
     public static javax.swing.JLabel jLabel7;
+    public static javax.swing.JLabel jLabel70;
+    public static javax.swing.JLabel jLabel71;
+    public static javax.swing.JLabel jLabel73;
+    public static javax.swing.JLabel jLabel75;
+    public static javax.swing.JLabel jLabel76;
+    public static javax.swing.JLabel jLabel77;
+    public static javax.swing.JLabel jLabel78;
+    public static javax.swing.JLabel jLabel79;
     public static javax.swing.JLabel jLabel8;
+    public static javax.swing.JLabel jLabel80;
+    public static javax.swing.JLabel jLabel81;
+    public static javax.swing.JLabel jLabel82;
+    public static javax.swing.JLabel jLabel83;
+    public static javax.swing.JLabel jLabel84;
+    public static javax.swing.JLabel jLabel85;
+    public static javax.swing.JLabel jLabel86;
+    public static javax.swing.JLabel jLabel87;
+    public static javax.swing.JLabel jLabel88;
+    public static javax.swing.JLabel jLabel89;
     public static javax.swing.JLabel jLabel9;
+    public static javax.swing.JLabel jLabel90;
+    public static javax.swing.JLabel jLabel91;
+    public static javax.swing.JLabel jLabel92;
+    public static javax.swing.JLabel jLabel93;
+    public static javax.swing.JLabel jLabel94;
+    public static javax.swing.JLabel jLabel95;
+    public static javax.swing.JLabel jLabel96;
+    public static javax.swing.JLabel jLabel97;
+    public static javax.swing.JLabel jLabel98;
+    public static javax.swing.JLabel jLabel99;
+    public static javax.swing.JPanel jPanel1;
+    public static javax.swing.JScrollPane jScrollPane1;
     public static javax.swing.JSeparator jSeparator1;
     public static javax.swing.JSeparator jSeparator10;
     public static javax.swing.JSeparator jSeparator12;
     public static javax.swing.JSeparator jSeparator13;
-    public static javax.swing.JSeparator jSeparator14;
-    public static javax.swing.JSeparator jSeparator15;
-    public static javax.swing.JSeparator jSeparator16;
-    public static javax.swing.JSeparator jSeparator17;
     public static javax.swing.JSeparator jSeparator18;
     public static javax.swing.JSeparator jSeparator19;
     public static javax.swing.JSeparator jSeparator2;
     public static javax.swing.JSeparator jSeparator20;
+    public static javax.swing.JSeparator jSeparator22;
     public static javax.swing.JSeparator jSeparator23;
+    public static javax.swing.JSeparator jSeparator24;
+    public static javax.swing.JSeparator jSeparator25;
+    public static javax.swing.JSeparator jSeparator26;
+    public static javax.swing.JSeparator jSeparator27;
+    public static javax.swing.JSeparator jSeparator28;
+    public static javax.swing.JSeparator jSeparator29;
     public static javax.swing.JSeparator jSeparator3;
     public static javax.swing.JSeparator jSeparator4;
     public static javax.swing.JSeparator jSeparator8;
