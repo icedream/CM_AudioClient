@@ -17,7 +17,7 @@ public class guiData {
     public static boolean dontReport = false;
     
     //webradio tab
-    public static String dev_id = "mw1jbuJXp-Qf9qmD";//i censored this. you can get your own shoutcast dev_id on dev.aol.com
+    public static String dev_id = "xxxxxxxxxxxxxx";//i censored this. you can get your own shoutcast dev_id on dev.aol.com
     public static HashMap<String, String> ownRadioStreams = new HashMap<String,String>();
     public static HashMap<String, String> radioStreams = new HashMap<String,String>();
 
